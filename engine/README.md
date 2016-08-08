@@ -23,10 +23,12 @@ Obviously, we can see from the above picture that the AIDL Service Client has th
 - Less memory usage. All apps use the same binaries from service and do not have to keep the native libs inside themselves;
 - Hardware specific optimizations for all supported platforms, such as the different CPU-Arch of Android platform;
 - Once the Engine is released, all the Service Libraries will be trusted library source. All packages with OpenCV should be published on Google Play market or Apple's App Store;
-- Regular updates and bug fixes;
+- Regular updates and bug fixes.
 
 ## Code Generator
-Besides the AIDL Service Client, the engine also contains a code generator.
+Besides the AIDL Service Client, the engine also contains a code generator. The code generator is based on the description file (config file), which is composed of infomation of the native libs. The information in the config file contains the usage of the libs, therefore the code generator is able to generate code automatically with the assistance of the config files. 
 
 ### Features
-
+- Generating code automatically. So it can spare the trouble of learning new programing language and coding the app oneself;
+- Cross-platorm. Since the description file is light-weighted, the code generator can perform normally on mutiple platforms;
+- Automatical lib-packageing. Taking full advantage of the libs to develop various applications, the code generator should have the function of packaging the libiaries automatically. For example, 
