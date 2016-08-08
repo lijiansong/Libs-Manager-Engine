@@ -7,7 +7,7 @@ This archive is the integral architecture design of the engine, which is like a 
 * [AIDL Service Client](#aidl-service-client)
   * [Modules](#modules)
   * [Benefits](#benefits)
-* [Code generator](#code-generator)
+* [Code Generator](#code-generator)
   * [Features](#features)
 
 ## AIDL Service Client
