@@ -28,7 +28,7 @@ Obviously, we can see from the above picture that the AIDL Service Client has th
 ## Code Generator
 Besides the AIDL Service Client, the engine also contains a code generator. The code generator is based on the description file (config file), which is composed of infomation of the native libs. The information in the config file contains the usage of the libs, therefore the code generator is able to generate code automatically with the assistance of the config files. 
 
-### Features
+### Modules
 - Generating code automatically. So it can spare the trouble of learning new programing language and coding the app oneself;
 - Cross-platorm. Since the description file is light-weighted, the code generator can perform normally on mutiple platforms;
 - Automatical lib-packageing. Taking full advantage of the libs to develop various applications, the code generator should have the function of packaging the libiaries automatically. For example, 
