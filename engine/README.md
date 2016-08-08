@@ -31,4 +31,4 @@ Besides the AIDL Service Client, the engine also contains a code generator. The 
 ### Features
 - Generating code automatically. So it can spare the trouble of learning new programing language and coding the app oneself;
 - Cross-platorm. Since the description file is light-weighted, the code generator can perform normally on mutiple platforms;
-- Automatical lib-packageing. Taking full advantage of the libs to develop various applications, the code generator should have the function of packaging the libiaries automatically. For example, 
+- Automatical lib-packageing. Taking full advantage of the libs to develop various applications, the code generator should have the function of packaging the libiaries automatically. For example, we have class A and class B, both of them have many member functions, the code generator can *combine(package)* these functions together to get a new class for different development purposes so that developers can call these functions more easily.
