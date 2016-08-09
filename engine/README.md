@@ -9,6 +9,7 @@ This archive is the integral architecture design of the engine, which is like a 
   * [Benefits](#benefits)
 * [Code Generator](#code-generator)
   * [Features](#features)
+* [License](#license)
 
 ## AIDL Service Client
 The AIDL Service Client is based on AIDL (Android Interface Definition Language) which is similar to other IDLs you might have worked with. It allows you to define the programming interface that both the client and service agree upon in order to communicate with each other using interprocess communication (IPC) which is based on the underlying *Binder* mechanisms.
