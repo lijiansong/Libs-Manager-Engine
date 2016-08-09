@@ -37,7 +37,7 @@ Besides the AIDL Service Client, the engine also contains a code generator. The 
 ## License
 [The MIT License (MIT)](http://opensource.org/licenses/MIT)
 
-Copyright (c) 2016 Json Lee
+**Copyright (c) 2016 Json Lee**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
