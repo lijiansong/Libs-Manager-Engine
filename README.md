@@ -34,7 +34,7 @@ To know the usage of the third-party libs, I designed a JSON-like formatted conf
 - Comments. For the purpose of readability, I think the config file should support comments.
 
 Implemented by flex & bison, it is able to describe the usage of the third-party libs on Android platform, which is suffixed by .so, .a, .o, etc.<br>
-[Learn more details about the parser...](https://github.com/lijiansong/ConfigFileParser)
+> [Learn more details about the parser...](https://github.com/lijiansong/ConfigFileParser)
 
 
 
