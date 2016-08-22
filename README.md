@@ -32,6 +32,7 @@ To know the usage of the third-party libs, I designed a JSON-like formatted conf
 - Inheritance mechanism. Since the third-party libs are usually object-oriented, inheritance mechanism can effectively reduce the trouble of writing the config files;
 - Induction mechanism. To support the feature of inheritance mechanism, we can include the config file from the outside files;
 - Comments. For the purpose of readability, I think the config file should support comments.
+
 Implemented by flex & bison, it is able to describe the usage of the third-party libs on Android platform, which is suffixed by .so, .a, .o, etc.
 [Learn more details about the parser...](https://github.com/lijiansong/ConfigFileParser)
 
