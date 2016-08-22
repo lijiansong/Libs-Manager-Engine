@@ -23,7 +23,11 @@ Just like the OpenCV Manager, the Engine Manager is also an Android service targ
 - Once the Engine is released, all the Service Libraries will be trusted library source. All packages with OpenCV should be published on Google Play market or Apple's App Store;
 - Regular updates and bug fixes;
 
-> [Learn more details...](https://github.com/lijiansong/Libs-Manager-Engine/blob/master/engine/README.md)
+> [Learn more details about the engine...](https://github.com/lijiansong/Libs-Manager-Engine/blob/master/engine/README.md)
+
+Config File Parser
+---
+
 
 
 
