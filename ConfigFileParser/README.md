@@ -122,7 +122,7 @@ $ make
 ```
 $ ./config_parser test.config
 ```
-> You can also call the static library *lib_cfg_parser.a* in your own program and use *make clean* cmd the delete the temporary output files.
+> You can also call the static library *lib_cfg_parser.a* in your own program and use *"make clean"* cmd the delete the temporary output files.
 
 ## Postscript
 > To be continued...
