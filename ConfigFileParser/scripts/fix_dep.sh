@@ -1,7 +1,7 @@
 #!/bin/bash
-
+# using shell scripts to fix the dependencies
 # Fixes dependencies on a .d file
-# Example:
+# For example:
 #
 # input dir/in.d:
 # in.o : dir/b.cc dir/b.h dir2/d.h
