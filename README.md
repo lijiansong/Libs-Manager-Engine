@@ -16,7 +16,7 @@ On Andrioid platform, it provides [*AIDL*](https://developer.android.com/guide/c
 
 Introduction
 ---
-Refer to the OpenCV Manager Mauual.
+Refer to the OpenCV Manager Manual.
 Just like the OpenCV Manager, the Engine Manager is also an Android service targeted to manage OpenCV library binaries on end users devices. It allows sharing the dynamic libraries between applications on the same device, such as Face Detection lib, Voice Recognition lib. The Engine Manager provides the following benefits:
 - Less memory usage. All apps use the same binaries from service and do not have to keep the native libs inside themselves;
 - Hardware specific optimizations for all supported platforms, such as the different CPU-Arch of Android platform;
