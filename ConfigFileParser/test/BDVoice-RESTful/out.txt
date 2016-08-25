@@ -1,0 +1,12 @@
+file size: 52512 bytes
+curl -s命令的host: https://openapi.baidu.com/oauth/2.0/token?grant_type=client_credentials&client_id=YGyI3APWnLGSiIFUWEnhBEoC&client_secret=fc4d81ef45486b17da48d6d2e81b65d5
+curl -s 响应结果: {"access_token":"24.eb3a37b0350bb409819672bc70dacc1e.2592000.1474683863.282335-8013990","session_key":"9mzdXqfalLtRnJZFAeihk12ufY6lFcnw1Q+7Iq4huywRzOTNMtaJaCci1eEUtIkM0C0nKOt2AFaUSLQTicda5fFu7MnJ","scope":"public audio_voice_assistant_get wise_adapt lebo_resource_base lightservice_public hetu_basic lightcms_map_poi kaidian_kaidian wangrantest_test wangrantest_test1 vis-faceverify_faceverify bnstest_test1 vis-ocr_ocr","refresh_token":"25.10f133d3b2dab6ba1ec69cd04980d063.315360000.1787451863.282335-8013990",
+result is not null! come here!
+access_token: 24.eb3a37b0350bb409819672bc70dacc1e.2592000.1474683863.282335-8013990
+Json file size:70188 bytes
+temp content-type:Content-Type: application/json; charset=utf-8
+temp content-len:Content-Length: 70188
+http-header-temp Content-Length: 70188
+server host: http://vop.baidu.com/server_api
+百度服务器返回的json数据：{"corpus_no":"6322586442659692100","err_msg":"success.","err_no":0,"result":["百度语音提供技术支持，"],"sn":"876715715721472091871"}
+
