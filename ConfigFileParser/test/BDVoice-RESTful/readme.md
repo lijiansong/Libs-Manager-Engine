@@ -7,7 +7,6 @@ You can type the following command to compile it.
 
 ```
 $ g++ -o bdvoice bdvr.cpp -L . -l json_linux-gcc-4.8_libmt -l curl
-
 ```
 
 ##Third-Party Libs
