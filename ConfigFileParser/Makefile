@@ -32,7 +32,7 @@ OBJ_LIB := \
 ALL_OBJ := $(OBJ_LIB) $(MAIN_OBJ)
 
 PROGRAMS = \
-  config_parser
+  config-parser
 
 LIBRARY = \
   lib_cfg_parser.a
@@ -71,13 +71,14 @@ endif
 %.tab.c %.tab.h: %.y
 	bison -d $*.y -o $@
 
-config_parser: config/config_main.o $(OBJ_LIB)
+$(PROGRAMS): config/config_main.o $(OBJ_LIB)
 	$(CC) $(LFLAGS) -o $@ config/config_main.o $(OBJ_LIB) $(LIBS) -pthread
 
-lib_cfg_parser.a: $(OBJ_LIB)
+$(LIBRARY): $(OBJ_LIB)
 	ar -rs $@ $(OBJ_LIB)
 
 clean:
+	@rm -f $(PROGRAMS)
 	@rm -f *.out
 	@rm -f *.o
 	@rm -f *.a
